@@ -1,6 +1,6 @@
-# **Путешествие по России**
+# **Большой театр**
 ***
-Проектная работа посвященаая путешествию по России, созданная в рамках прохождения 3 спринта курса Веб-разработчик в [Яндекс Практикум](https://practicum.yandex.ru "сервис онлайн-образования").
+Работа посвященаая Большому театру.
 
 ### **Технологии**
 ***
@@ -12,5 +12,5 @@
 * БЭМ Nested
 * Accessibility
 ***
-[Ссылка на проект](https://romankrivopalov.github.io/russian-travel/)\
-[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile)
+[Ссылка на проект](https://romankrivopalov.github.io/bolshoi/)\
+[Ссылка на макет в Figma](https://www.figma.com/file/tDXKBS668DUhbK0DOVg6dv/Templates-%2315.-More-on-Figma.info?node-id=0%3A1&t=L6YnxDppzds0T2x2-0)
