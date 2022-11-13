@@ -1,3 +1,9 @@
 .slider__item {
-  padding-right: 20px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(0);
+  z-index: 1;
+  width: calc(100% - 20px);
 }

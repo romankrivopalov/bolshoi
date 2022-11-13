@@ -37,6 +37,7 @@
 @import url('../blocks/slider/__wrapper/slider__wrapper.css');
 @import url('../blocks/slider/__items/slider__items.css');
 @import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__item/_active/slider__item_active.css');
 @import url('../blocks/slider/__img/slider__img.css');
 @import url('../blocks/slider/__btn/slider__btn.css');
 @import url('../blocks/slider/__btns/slider__btns.css');
