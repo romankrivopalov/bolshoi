@@ -26,8 +26,13 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1440px) {
   .header__content {
-    padding-top: 59px;
+    padding: 59px 75px 0 0;
+    display: grid;
+    grid-template-columns: 540px 370px;
+    grid-template-rows: 117px repeat(4, auto);
+    column-gap: 125px;
+    width: 1110px;
   }
 }

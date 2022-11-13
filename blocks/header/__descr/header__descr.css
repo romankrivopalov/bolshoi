@@ -13,3 +13,9 @@
     padding-top: 50px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .header__descr {
+    grid-row: 3 / 4;
+  }
+}

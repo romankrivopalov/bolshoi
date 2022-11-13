@@ -1,0 +1,35 @@
+.slider__btn {
+  margin: 0;
+  padding: 0;
+  width: 108px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  color: var(--color-white);
+  background-color: inherit;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out, font-size 0.05s ease;
+}
+
+.slider__btn:active {
+  font-size: 17px;
+}
+
+.slider__btn:first-child {
+  padding-left: 65px;
+  background-image: url('../../../images/btn-prev.svg');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 40px;
+}
+
+.slider__btn:last-child {
+  padding-right: 65px;
+  background-image: url('../../../images/btn-next.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 40px;
+}

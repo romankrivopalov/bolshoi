@@ -12,3 +12,9 @@
     letter-spacing: 0.1em;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .header__title {
+    grid-row: 2 / 3;
+  }
+}

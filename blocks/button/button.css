@@ -4,6 +4,7 @@
   height: 50px;
   font-size: 18px;
   line-height: 25px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-white);

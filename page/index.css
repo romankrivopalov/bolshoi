@@ -13,6 +13,7 @@
 @import url('../blocks/header/__content/header__content.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__descr/header__descr.css');
+@import url('../blocks/header/__link-btn/header__link-btn.css');
 
 @import url('../blocks/sidepanel/sidepanel.css');
 @import url('../blocks/sidepanel/_active/sidepanel_active.css');
@@ -31,4 +32,11 @@
 @import url('../blocks/headline/__tel/headline__tel.css');
 
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/_place/button_place_header.css');
+
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__wrapper/slider__wrapper.css');
+@import url('../blocks/slider/__items/slider__items.css');
+@import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__img/slider__img.css');
+@import url('../blocks/slider/__btn/slider__btn.css');
+@import url('../blocks/slider/__btns/slider__btns.css');
