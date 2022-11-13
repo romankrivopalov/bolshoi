@@ -1,0 +1,3 @@
+.sidepanel_active {
+  transform: translateX(300px);
+}

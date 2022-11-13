@@ -1,0 +1,12 @@
+.sidepanel__close-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  width: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .sidepanel__close-icon {
+    display: none;
+  }
+}

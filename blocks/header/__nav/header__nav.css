@@ -1,0 +1,20 @@
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  z-index: 2;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header__nav {
+    gap: 63px;
+  }
+}

@@ -1,0 +1,12 @@
+.sidepanel__social-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  color: var(--color-white);
+  transition: color 0.3s ease;
+}
+
+.sidepanel__social-icon:hover {
+  color: var(--color-gold);
+}

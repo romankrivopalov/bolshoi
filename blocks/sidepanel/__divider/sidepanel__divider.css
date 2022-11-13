@@ -1,0 +1,12 @@
+.sidepanel__divider {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .sidepanel__divider {
+    display: block;
+    width: 3px;
+    height: 80px;
+    background-color: var(--color-white);
+  }
+}

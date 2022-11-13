@@ -1,0 +1,38 @@
+.headline {
+  position: relative;
+  padding: 33px 33px 0 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 556px) {
+  .headline {
+    padding: 56px 33px 0 33px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .headline {
+    margin: 0 auto;
+    padding: 51px 0 0 82px;
+    justify-content: center;
+    row-gap: 50px;
+    max-width: 692px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .headline {
+    padding: 50px 0 0 50px;
+    justify-content: space-between;
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .headline {
+    max-width: 1110px;
+  }
+}

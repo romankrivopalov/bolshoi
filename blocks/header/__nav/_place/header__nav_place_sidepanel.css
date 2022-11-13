@@ -1,0 +1,9 @@
+.header__nav_place_sidepanel {
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav_place_sidepanel {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.header__title {
+  margin: 0;
+  font-size: 38px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) {
+  .header__title {
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+  }
+}

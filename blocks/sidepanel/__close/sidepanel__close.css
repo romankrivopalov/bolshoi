@@ -1,0 +1,9 @@
+.sidepanel__close {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 3;
+}

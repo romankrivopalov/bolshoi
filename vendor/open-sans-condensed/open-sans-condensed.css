@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('./OpenSansCondensed-Light.woff'),
+       url('./OpenSansCondensed-Light.woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('./OpenSansCondensed-Bold.woff'),
+       url('./OpenSansCondensed-Bold.woff2');
+  font-style: normal;
+  font-weight: 700;
+}

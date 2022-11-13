@@ -1,0 +1,13 @@
+.button {
+  margin: 0;
+  padding: 0 47px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-white);
+  background-color: var(--color-gold);
+  border: none;
+  cursor: pointer;
+}
