@@ -1,6 +1,10 @@
+.header__link-btn {
+  display: block;
+  margin-top: 49px;
+}
+
 @media screen and (min-width: 1440px) {
   .header__link-btn {
-    margin-top: 49px;
     grid-row: 4 / 5;
     width: 160px;
   }

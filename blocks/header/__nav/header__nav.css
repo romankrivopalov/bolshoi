@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1440px) {
   .header__nav {
     gap: 63px;
   }

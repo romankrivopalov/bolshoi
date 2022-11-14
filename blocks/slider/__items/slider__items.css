@@ -1,6 +1,7 @@
 .slider__items {
-  position: relative;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 100px;
   list-style: none;
 }

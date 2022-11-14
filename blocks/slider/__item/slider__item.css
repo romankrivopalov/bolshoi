@@ -1,9 +1,7 @@
 .slider__item {
+  position: relative;
   margin: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translateX(0);
+  width: 350px;
+  height: 490px;
   z-index: 1;
-  width: calc(100% - 20px);
 }

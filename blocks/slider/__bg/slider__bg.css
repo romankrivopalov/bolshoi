@@ -1,0 +1,10 @@
+.slider__bg {
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  object-fit: cover;
+  width: 350px;
+  height: 490px;
+}

@@ -1,6 +1,0 @@
-.slider__item_active {
-  margin: 0;
-  position: relative;
-  transform: translate(-20px, -20px);
-  z-index: 2;
-}
