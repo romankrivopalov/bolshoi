@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 992px) {
   .header__nav {
+    margin-left: 82px;
     flex-direction: row;
     gap: 30px;
   }

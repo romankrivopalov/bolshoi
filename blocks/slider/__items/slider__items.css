@@ -2,6 +2,6 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 100px;
   list-style: none;
+  transition: all 1s ease-in-out;
 }

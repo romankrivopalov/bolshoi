@@ -11,4 +11,9 @@
   background-color: var(--color-gold);
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-gold-active);
 }

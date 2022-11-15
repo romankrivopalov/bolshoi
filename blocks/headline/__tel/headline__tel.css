@@ -3,12 +3,12 @@
   padding-bottom: 4px;
   font-size: 16px;
   line-height: 22px;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   color: var(--color-white);
   text-decoration: none;
   border-bottom: solid 2px var(--color-gold);
   cursor: pointer;
-  transition: color 0.5s ease-in-out;
+  transition: color 0.3s ease-in-out;
   z-index: 2;
 }
 

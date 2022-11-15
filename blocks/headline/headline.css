@@ -7,19 +7,25 @@
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 556px) {
+@media screen and (min-width: 576px) {
   .headline {
     padding: 56px 33px 0 33px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 56px 39px 0 39px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .headline {
     margin: 0 auto;
-    padding: 51px 0 0 82px;
+    padding: 51px 0 0 0;
     justify-content: center;
     row-gap: 50px;
-    max-width: 692px;
+    max-width: 780px;
   }
 }
 
@@ -27,13 +33,12 @@
   .headline {
     padding: 50px 0 0 50px;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1110px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .headline {
     padding-left: 0;
-    max-width: 1110px;
   }
 }
