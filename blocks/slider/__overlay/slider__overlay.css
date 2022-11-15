@@ -1,0 +1,9 @@
+.slider__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 350px;
+  height: 490px;
+  transform: translate(20px, 20px);
+}

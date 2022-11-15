@@ -1,0 +1,21 @@
+.header__descr {
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 576px) {
+  .header__descr {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__descr {
+    grid-row: 3 / 4;
+  }
+}

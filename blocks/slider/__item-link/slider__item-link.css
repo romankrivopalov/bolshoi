@@ -1,0 +1,4 @@
+.slider__item-link {
+  position: relative;
+  z-index: 3;
+}

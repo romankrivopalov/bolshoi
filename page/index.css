@@ -1,5 +1,45 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/open-sans/open-sans.css');
+@import url('../vendor/open-sans-condensed/open-sans-condensed.css');
 @import url('../vendor/variables.css');
 
 @import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav/_place/header__nav_place_headline.css');
+@import url('../blocks/header/__nav/_place/header__nav_place_sidepanel.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/header/__descr/header__descr.css');
+@import url('../blocks/header/__link-btn/header__link-btn.css');
+
+@import url('../blocks/sidepanel/sidepanel.css');
+@import url('../blocks/sidepanel/_active/sidepanel_active.css');
+@import url('../blocks/sidepanel/__close/sidepanel__close.css');
+@import url('../blocks/sidepanel/__close-icon/sidepanel__close-icon.css');
+@import url('../blocks/sidepanel/__title/sidepanel__title.css');
+@import url('../blocks/sidepanel/__divider/sidepanel__divider.css');
+@import url('../blocks/sidepanel/__social/sidepanel__social.css');
+@import url('../blocks/sidepanel/__social-item/sidepanel__social-item.css');
+@import url('../blocks/sidepanel/__social-link/sidepanel__social-link.css');
+@import url('../blocks/sidepanel/__social-icon/sidepanel__social-icon.css');
+
+@import url('../blocks/headline/headline.css');
+@import url('../blocks/headline/__hamburger/headline__hamburger.css');
+@import url('../blocks/headline/__hamburger-icon/headline__hamburger-icon.css');
+@import url('../blocks/headline/__tel/headline__tel.css');
+
+@import url('../blocks/button/button.css');
+
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__wrapper/slider__wrapper.css');
+@import url('../blocks/slider/__items/slider__items.css');
+@import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__item-link/slider__item-link.css');
+@import url('../blocks/slider/__img/slider__img.css');
+@import url('../blocks/slider/__overlay/slider__overlay.css');
+@import url('../blocks/slider/__bg/slider__bg.css');
+@import url('../blocks/slider/__btn/slider__btn.css');
+@import url('../blocks/slider/__btns/slider__btns.css');

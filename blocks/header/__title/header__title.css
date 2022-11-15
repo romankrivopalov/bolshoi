@@ -1,0 +1,21 @@
+.header__title {
+  margin: 0;
+  font-size: 42px;
+  text-align: left;
+  line-height: 1.3;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) {
+  .header__title {
+    font-size: 64px;
+    line-height: 87px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__title {
+    grid-row: 2 / 3;
+  }
+}

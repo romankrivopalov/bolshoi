@@ -1,0 +1,6 @@
+.slider__btns {
+  margin: 0;
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}

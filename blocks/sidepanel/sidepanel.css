@@ -1,0 +1,28 @@
+.sidepanel {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 47px 0 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: var(--color-gray);
+  z-index: 3;
+  transition: transform 0.7s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  .sidepanel {
+    padding: 40px 47px 86px 39px;
+    justify-content: flex-end;
+    left: 0;
+    width: 150px;
+    opacity: .75;
+    gap: 40px;
+  }
+}

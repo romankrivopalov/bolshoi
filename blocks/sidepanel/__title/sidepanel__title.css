@@ -1,0 +1,18 @@
+.sidepanel__title {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .sidepanel__title {
+    margin: 0;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+  }
+}

@@ -1,0 +1,13 @@
+.headline__hamburger {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media screen and (min-width: 992px) {
+  .headline__hamburger {
+    display: none;
+  }
+}

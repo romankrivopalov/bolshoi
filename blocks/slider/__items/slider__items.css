@@ -1,0 +1,7 @@
+.slider__items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  transition: all 1s ease-in-out;
+}

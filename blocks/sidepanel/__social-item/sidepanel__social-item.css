@@ -1,0 +1,13 @@
+.sidepanel__social-item {
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 992px) {
+  .sidepanel__social-item {
+    width: 26px;
+    height: 26px;
+  }
+}
