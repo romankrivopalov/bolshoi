@@ -43,3 +43,10 @@
 @import url('../blocks/slider/__bg/slider__bg.css');
 @import url('../blocks/slider/__btn/slider__btn.css');
 @import url('../blocks/slider/__btns/slider__btns.css');
+
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-title/__span-accent/section-title__span-accent.css');
+
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__container/about__container.css');
+@import url('../blocks/about/__text/about__text.css');
