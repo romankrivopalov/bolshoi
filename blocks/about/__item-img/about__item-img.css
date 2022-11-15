@@ -1,0 +1,8 @@
+.about__item-img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}

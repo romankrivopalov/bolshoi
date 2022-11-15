@@ -1,0 +1,14 @@
+.about__img {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .about__img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 292px;
+    object-fit: cover;
+  }
+}
