@@ -1,9 +1,9 @@
 .button {
+  display: inline-block;
   margin: 0;
   padding: 0 47px;
-  height: 50px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -11,6 +11,8 @@
   background-color: var(--color-gold);
   border: none;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
   transition: background-color 0.3s ease-in-out;
 }
 
