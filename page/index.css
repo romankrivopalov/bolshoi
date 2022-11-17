@@ -58,3 +58,9 @@
 @import url('../blocks/about/__item-text/about__item-text.css');
 @import url('../blocks/about/__span-accent/about__span-accent.css');
 @import url('../blocks/about/__img/about__img.css');
+
+@import url('../blocks/partners/partners.css');
+@import url('../blocks/partners/__wrapper/partners__wrapper.css');
+@import url('../blocks/partners/__inner/partners__inner.css');
+@import url('../blocks/partners/__item/partners__item.css');
+@import url('../blocks/partners/__img/partners__img.css');
