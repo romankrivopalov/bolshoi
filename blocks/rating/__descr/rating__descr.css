@@ -1,0 +1,42 @@
+.rating__descr {
+  margin: 0;
+  padding: 35px 16px 0 16px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  max-width: 330px;
+  color: var(--color-white);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .rating__descr {
+    padding: 25px 0 0 0;
+    text-align: left;
+    width: 325px;
+    max-width: none;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rating__descr {
+    width: 380px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .rating__descr {
+    width: 440px;
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .rating__descr {
+    width: 550px;
+    font-size: 36px;
+  }
+}

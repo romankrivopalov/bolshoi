@@ -1,0 +1,14 @@
+.rating__stars {
+  margin: 10px 0 0 0;
+  width: 192px;
+  height: 24px;
+  background-image: url('../../../images/stars.png');
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 576px) {
+  .rating__stars {
+    width: 192px;
+    height: 24px;
+  }
+}

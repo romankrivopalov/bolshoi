@@ -1,0 +1,12 @@
+.rating__years {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 156px;
+  list-style: none;
+  color: var(--color-gold);
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
