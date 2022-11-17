@@ -1,0 +1,48 @@
+.rating__wrapper {
+  position: relative;
+  margin: 0;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-image: url('../../../images/rating-bg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rating__wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  opacity: .9;
+}
+
+@media screen and (min-width: 576px) {
+  .rating__wrapper {
+    margin: 60px auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .rating__wrapper {
+    gap: 58px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rating__wrapper {
+    gap: 103px;
+    width: 1110px;
+  }
+}

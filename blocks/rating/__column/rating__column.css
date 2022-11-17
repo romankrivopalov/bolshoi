@@ -1,0 +1,13 @@
+.rating__column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .rating__column {
+    align-items: flex-start;
+  }
+}
