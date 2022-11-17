@@ -1,0 +1,14 @@
+.partners__inner {
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 70px;
+  row-gap: 80px;
+  width: 1034px;
+  list-style: none;
+  pointer-events: none;
+}

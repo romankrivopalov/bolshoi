@@ -1,0 +1,18 @@
+.partners__wrapper {
+  position: relative;
+  margin: 60px 0 0 0;
+  overflow: scroll hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.partners__wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .partners__wrapper {
+    overflow: hidden;
+  }
+}
