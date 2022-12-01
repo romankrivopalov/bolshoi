@@ -59,6 +59,30 @@
     }
   });
 
+// projects slider
+  const sliderSection = document.querySelector('.projects'),
+        sliderStickyWrapper = document.querySelector('.projects__sticky-wrapper'),
+        sliderInner = document.querySelector('.projects__inner'),
+        sliderItems = document.querySelectorAll('.project');
+
+  let sliderHiddenWidth = (sliderItems[0].offsetWidth * sliderItems.length) - sliderSection.offsetWidth;
+  let sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top;
+  let sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2);
+
+  sliderSection.style.height = `${sliderHiddenWidth + sliderInner.offsetHeight}px`;
+  sliderStickyWrapper.style.top = `${(sliderSectionOffsetWindow)}px`;
+
+  document.addEventListener('scroll', () => {
+    let scroll = window.scrollY;
+
+    console.log(sliderSectionOffsetTop - sliderSectionOffsetWindow);
+    console.log(window.scrollY);
+
+    if (scroll > 1000) {
+      sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop)}px`
+    };
+  })
+
 // drag'n'drop slider in partners block
   let slider = document.querySelector('.partners__wrapper'),
       innerSlider = document.querySelector('.partners__inner');

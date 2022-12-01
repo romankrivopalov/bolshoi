@@ -59,6 +59,16 @@
 @import url('../blocks/about/__span-accent/about__span-accent.css');
 @import url('../blocks/about/__img/about__img.css');
 
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/projects/__sticky-wrapper/projects__sticky-wrapper.css');
+@import url('../blocks/projects/__hidden-wrapper/projects__hidden-wrapper.css');
+@import url('../blocks/projects/__inner/projects__inner.css');
+
+@import url('../blocks/project/project.css');
+@import url('../blocks/project/__title/project__title.css');
+@import url('../blocks/project/__date/project__date.css');
+@import url('../blocks/project/__img/project__img.css');
+
 @import url('../blocks/rating/rating.css');
 @import url('../blocks/rating/__wrapper/rating__wrapper.css');
 @import url('../blocks/rating/__years/rating__years.css');
