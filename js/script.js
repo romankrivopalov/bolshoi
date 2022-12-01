@@ -69,17 +69,14 @@
   let sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top;
   let sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2);
 
-  sliderSection.style.height = `${sliderHiddenWidth + sliderInner.offsetHeight}px`;
+  sliderSection.style.height = `${sliderHiddenWidth + sliderStickyWrapper.offsetHeight}px`;
   sliderStickyWrapper.style.top = `${(sliderSectionOffsetWindow)}px`;
 
   document.addEventListener('scroll', () => {
     let scroll = window.scrollY;
 
-    console.log(sliderSectionOffsetTop - sliderSectionOffsetWindow);
-    console.log(window.scrollY);
-
-    if (scroll > 1000) {
-      sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop)}px`
+    if (sliderHiddenWidth > 0 && scroll > sliderSectionOffsetTop - sliderSectionOffsetWindow) {
+      sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop - sliderSectionOffsetWindow)}px`
     };
   })
 
