@@ -65,20 +65,26 @@
         sliderInner = document.querySelector('.projects__inner'),
         sliderItems = document.querySelectorAll('.project');
 
-  let sliderHiddenWidth = (sliderItems[0].offsetWidth * sliderItems.length) - sliderSection.offsetWidth;
-  let sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top;
-  let sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2);
+  let sliderHiddenWidth = (sliderItems[0].offsetWidth * sliderItems.length) - sliderStickyWrapper.offsetWidth,
+      sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top,
+      sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2);
 
-  sliderSection.style.height = `${sliderHiddenWidth + sliderStickyWrapper.offsetHeight}px`;
-  sliderStickyWrapper.style.top = `${(sliderSectionOffsetWindow)}px`;
+  function addSliderSizes() {
+    sliderSection.style.height = `${sliderHiddenWidth + sliderStickyWrapper.offsetHeight}px`;
+    sliderStickyWrapper.style.top = `${(sliderSectionOffsetWindow)}px`;
+  }
 
-  document.addEventListener('scroll', () => {
+  function moveSliderInner() {
     let scroll = window.scrollY;
 
-    if (sliderHiddenWidth > 0 && scroll > sliderSectionOffsetTop - sliderSectionOffsetWindow) {
+    if (sliderHiddenWidth > 0 && scroll > sliderSectionOffsetTop - sliderSectionOffsetWindow && scroll < (sliderSectionOffsetTop - sliderSectionOffsetWindow) + sliderHiddenWidth) {
       sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop - sliderSectionOffsetWindow)}px`
     };
-  })
+  }
+
+  document.addEventListener('scroll', moveSliderInner);
+
+  addSliderSizes();
 
 // drag'n'drop slider in partners block
   let slider = document.querySelector('.partners__wrapper'),
