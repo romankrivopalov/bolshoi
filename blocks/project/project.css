@@ -1,3 +1,20 @@
 .project {
   position: relative;
 }
+
+.project::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  opacity: .65;
+  transition: opacity .5s ease-in-out;
+  z-index: 2;
+}
+
+.project:hover::before {
+  opacity: 0;
+}

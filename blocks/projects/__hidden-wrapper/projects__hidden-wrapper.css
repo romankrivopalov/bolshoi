@@ -1,4 +1,11 @@
 .projects__hidden-wrapper {
+  margin: 0;
   padding-top: 60px;
   overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+  .projects__hidden-wrapper {
+    margin-left: 80px;
+  }
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   display: grid;
+  grid-template-rows: 550px;
   grid-auto-columns: 442px;
   grid-auto-flow: column;
   list-style: none;

@@ -61,24 +61,43 @@
 
 // projects slider
   const sliderSection = document.querySelector('.projects'),
-        sliderStickyWrapper = document.querySelector('.projects__sticky-wrapper'),
-        sliderInner = document.querySelector('.projects__inner'),
-        sliderItems = document.querySelectorAll('.project');
+        sliderStickyWrapper = sliderSection.querySelector('.projects__sticky-wrapper'),
+        sliderHiddenWrapper = sliderStickyWrapper.querySelector('.projects__hidden-wrapper'),
+        sliderInner = sliderHiddenWrapper.querySelector('.projects__inner'),
+        sliderItems = sliderInner.querySelectorAll('.project'),
+        sliderHiddenWidth = (sliderItems[0].offsetWidth * sliderItems.length) - sliderHiddenWrapper.offsetWidth,
+        sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top,
+        sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2),
+        sliderOffset= 100;
 
-  let sliderHiddenWidth = (sliderItems[0].offsetWidth * sliderItems.length) - sliderStickyWrapper.offsetWidth,
-      sliderSectionOffsetTop = window.pageYOffset + sliderSection.getBoundingClientRect().top,
-      sliderSectionOffsetWindow = ((window.innerHeight - sliderStickyWrapper.offsetHeight) / 2);
+  sliderItems.forEach(item => {
+    item.addEventListener('mouseover', () => {
+      item.querySelector('.project__link').classList.add('project__link_show');
+    })
+
+    item.addEventListener('mouseout', () => {
+      item.querySelector('.project__link').classList.remove('project__link_show');
+    })
+  })
 
   function addSliderSizes() {
-    sliderSection.style.height = `${sliderHiddenWidth + sliderStickyWrapper.offsetHeight}px`;
+    if (sliderHiddenWidth > 0) {
+      sliderSection.style.height = `${sliderHiddenWidth + sliderStickyWrapper.offsetHeight + (sliderOffset * 2)}px`;
+    } else {
+      sliderHiddenWrapper.style.margin = '0'
+      sliderInner.style.justifyContent = 'center'
+    }
+
     sliderStickyWrapper.style.top = `${(sliderSectionOffsetWindow)}px`;
   }
 
   function moveSliderInner() {
     let scroll = window.scrollY;
 
-    if (sliderHiddenWidth > 0 && scroll > sliderSectionOffsetTop - sliderSectionOffsetWindow && scroll < (sliderSectionOffsetTop - sliderSectionOffsetWindow) + sliderHiddenWidth) {
-      sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop - sliderSectionOffsetWindow)}px`
+    if (sliderHiddenWidth > 0 && scroll > sliderSectionOffsetTop - sliderSectionOffsetWindow + sliderOffset && scroll < (sliderSectionOffsetTop - sliderSectionOffsetWindow) + (sliderHiddenWidth + (sliderOffset))) {
+      sliderInner.style.transform = `translateX(-${scroll - (sliderSectionOffsetTop - sliderSectionOffsetWindow + sliderOffset)}px)`
+    } else if (scroll < sliderSectionOffsetTop - sliderSectionOffsetWindow + sliderOffset) {
+      sliderInner.style.transform = `translateX(0px)`
     };
   }
 

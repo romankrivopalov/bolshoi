@@ -1,22 +1,22 @@
 .projects {
   box-sizing: border-box;
-  padding: 0 33px 0 33px;
+  padding: 0 33px;
 }
 
 @media screen and (min-width: 768px) {
   .projects {
-    padding: 0 39px 0 39px;
+    padding: 0 39px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .projects {
-    padding: 0 111px 0 191px;
+    padding: 0 111px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .projects {
-    padding: 0 0 0 150px;
+    padding: 0;
   }
 }

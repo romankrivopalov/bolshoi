@@ -1,0 +1,16 @@
+.project__link {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../../../images/icons/icon-search.svg');
+  background-color: var(--color-gold);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  /* transition: all .5s ease-in-out; */
+  z-index: 2;
+}
