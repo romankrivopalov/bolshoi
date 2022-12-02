@@ -1,0 +1,24 @@
+.contacts__input {
+  margin: 0;
+  padding: 0 15px;
+  color: #989898;
+  font-size: 12px;
+  line-height: 35px;
+  font-weight: 600;
+  background-color: #444;
+  border: 1px solid #616161;
+  transition: background-color .3s ease-in-out;
+}
+
+.contacts__input:focus {
+  outline: none;
+  background-color: inherit;
+}
+
+.contacts__input::placeholder {
+  color: #989898;
+}
+
+.contacts__input:focus::placeholder {
+  color: var(--color-gray);
+}

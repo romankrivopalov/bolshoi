@@ -1,0 +1,18 @@
+.button_place_contacts {
+  margin: 0 auto;
+  height: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .button_place_contacts {
+    grid-column: 1 / 3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button_place_contacts {
+    margin: 0;
+    grid-column: 3 / 4;
+    justify-self: end;
+  }
+}

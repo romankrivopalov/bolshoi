@@ -1,0 +1,20 @@
+.contacts__personal-data {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #989898;
+}
+
+@media screen and (min-width: 576px) {
+  .contacts__personal-data {
+    grid-column: 1 / 3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__personal-data {
+    padding-top: 10px;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+}

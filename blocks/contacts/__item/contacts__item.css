@@ -1,0 +1,25 @@
+.contacts__item {
+  margin: 0 0 25px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (min-width: 576px) {
+  .contacts__item {
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .contacts__item:first-child {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts__item {
+    text-align: left;
+  }
+}

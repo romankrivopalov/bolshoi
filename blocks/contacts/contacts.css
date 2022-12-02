@@ -1,0 +1,24 @@
+.contacts {
+  padding: 80px 33px 0 33px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    margin: 0 auto;
+    padding: 90px 0 0 0;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contacts {
+    padding-top: 120px;
+    max-width: 770px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts {
+    max-width: 1110px;
+  }
+}

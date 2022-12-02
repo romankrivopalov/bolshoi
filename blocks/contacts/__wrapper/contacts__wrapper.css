@@ -1,0 +1,19 @@
+.contacts__wrapper {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 992px) {
+  .contacts__wrapper {
+    padding: 120px 0 0 80px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts__wrapper {
+    padding: 120px 0 0 0;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

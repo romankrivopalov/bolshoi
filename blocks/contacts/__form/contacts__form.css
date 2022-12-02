@@ -1,0 +1,28 @@
+.contacts__form {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: space-between;
+  gap: 30px 49px;
+}
+
+@media screen and (min-width: 576px) {
+  .contacts__form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__form {
+    grid-template-columns: repeat(2, 1fr) 270px;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts__form {
+    grid-template-columns: repeat(2, 180px) 310px;
+  }
+}

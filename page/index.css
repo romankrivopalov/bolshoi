@@ -32,6 +32,7 @@
 @import url('../blocks/headline/__tel/headline__tel.css');
 
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/_place/button_place_contacts.css');
 
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/slider/__wrapper/slider__wrapper.css');
@@ -83,3 +84,14 @@
 @import url('../blocks/partners/__inner/partners__inner.css');
 @import url('../blocks/partners/__item/partners__item.css');
 @import url('../blocks/partners/__img/partners__img.css');
+
+@import url('../blocks/contacts/contacts.css');
+@import url('../blocks/contacts/__wrapper/contacts__wrapper.css');
+@import url('../blocks/contacts/__form/contacts__form.css');
+@import url('../blocks/contacts/__input/contacts__input.css');
+@import url('../blocks/contacts/__input/_type/contacts__input_type_textarea.css');
+@import url('../blocks/contacts/__personal-data/contacts__personal-data.css');
+@import url('../blocks/contacts/__info/contacts__info.css');
+@import url('../blocks/contacts/__list/contacts__list.css');
+@import url('../blocks/contacts/__item/contacts__item.css');
+@import url('../blocks/contacts/__link/contacts__link.css');
