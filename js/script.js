@@ -5,13 +5,16 @@
         sidepanel = document.querySelector('.sidepanel'),
         closeSidepanel = document.querySelector('.sidepanel__close');
 
-  hamburger.addEventListener('click', () => {
+  function openMenu() {
     sidepanel.classList.add('sidepanel_active');
-  });
+  }
 
-  closeSidepanel.addEventListener('click', () => {
+  function closeMenu() {
     sidepanel.classList.remove('sidepanel_active');
-  });
+  }
+
+  hamburger.addEventListener('click', openMenu);
+  closeSidepanel.addEventListener('click', closeMenu);
 
 // slider
   let slideIndex = 1,
@@ -27,7 +30,9 @@
 
   slidesField.style.width = widthSlide * slides.length + 'px';
 
-  btnNext.addEventListener('click', () => {
+
+
+  function moveSliderNext() {
     if (offset == widthSlide * (slides.length - 1)) {
       offset = 0;
     } else {
@@ -41,9 +46,9 @@
     } else {
       slideIndex++;
     }
-  });
+  }
 
-  btnPrev.addEventListener('click', () => {
+  function moveSliderPrev() {
     if (offset == 0) {
       offset = widthSlide * (slides.length - 1);
     } else {
@@ -57,7 +62,10 @@
     } else {
       slideIndex--;
     }
-  });
+  }
+
+  btnNext.addEventListener('click', moveSliderNext);
+  btnPrev.addEventListener('click', moveSliderPrev);
 
 // projects slider
   const sliderSection = document.querySelector('.projects'),
@@ -139,25 +147,23 @@
         checkboundary();
       });
 
-      function checkboundary() {
-        let outer = slider.getBoundingClientRect();
-        let inner = innerSlider.getBoundingClientRect();
-
-        if (parseInt(innerSlider.style.left) > 0) {
-            innerSlider.style.left = '0px';
-        } else if (inner.right < outer.right) {
-            innerSlider.style.left = `-${inner.width - outer.width}px`;
-        }
-      }
-
       checkboundary();
     } else {
       slider.style.cursor = 'auto';
     }
   }
 
+  function checkboundary() {
+    let outer = slider.getBoundingClientRect();
+    let inner = innerSlider.getBoundingClientRect();
+
+    if (parseInt(innerSlider.style.left) > 0) {
+        innerSlider.style.left = '0px';
+    } else if (inner.right < outer.right) {
+        innerSlider.style.left = `-${inner.width - outer.width}px`;
+    }
+  }
+
   sliderPartners();
 
-  window.addEventListener('resize', () => {
-    sliderPartners();
-  })
+  window.addEventListener('resize', sliderPartners);
