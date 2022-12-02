@@ -1,11 +1,11 @@
-.about__container {
+.about__wrapper {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
-  .about__container {
+  .about__wrapper {
     padding-top: 60px;
     flex-direction: row;
     column-gap: 30px;
@@ -13,15 +13,16 @@
 }
 
 @media screen and (min-width: 992px) {
-  .about__container {
-    padding-top: 100px;
+  .about__wrapper {
+    padding: 100px 0 0 80px;
     margin: 0 auto;
     width: 691px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .about__container {
+  .about__wrapper {
+    padding: 100px 0 0 0;
     width: 1110px;
   }
 }

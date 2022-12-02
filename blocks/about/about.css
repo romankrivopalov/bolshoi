@@ -6,14 +6,14 @@
 @media screen and (min-width: 762px) {
   .about {
     margin: 0 auto;
-    padding: 90px 0;
-    max-width: 690px;
+    padding: 90px 39px 90px 39px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .about {
     padding: 150px 0;
+    max-width: 770px;
   }
 }
 

@@ -49,7 +49,7 @@
 @import url('../blocks/section-title/__span-accent/section-title__span-accent.css');
 
 @import url('../blocks/about/about.css');
-@import url('../blocks/about/__container/about__container.css');
+@import url('../blocks/about/__wrapper/about__wrapper.css');
 @import url('../blocks/about/__text/about__text.css');
 @import url('../blocks/about/__title/about__title.css');
 @import url('../blocks/about/__descr/about__descr.css');
