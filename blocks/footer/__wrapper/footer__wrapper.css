@@ -1,0 +1,12 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

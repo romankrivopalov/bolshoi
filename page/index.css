@@ -95,3 +95,9 @@
 @import url('../blocks/contacts/__list/contacts__list.css');
 @import url('../blocks/contacts/__item/contacts__item.css');
 @import url('../blocks/contacts/__link/contacts__link.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__divider/footer__divider.css');
+@import url('../blocks/footer/__wrapper/footer__wrapper.css');
+@import url('../blocks/footer/__item/footer__item.css');
+@import url('../blocks/footer/__link/footer__link.css');
